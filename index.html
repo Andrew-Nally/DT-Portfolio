@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="main.css"/>   
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <title>Andrew Nally - Portfolio Website</title>
+</head>
+<body>
+<div id="bg-overlay">
+    <script>
+        document.body.className += ' fade-out';
+        $(function () {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+    <header>
+        <div class="logo">
+            <img src="/img/MyLogo.png" alt="logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" data-text="Home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" data-text="Skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#" data-text="About" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" data-text="Projects" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<!-- Intro--->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro"></h1>
+        <div class="name"><b>D<span>re</span>w<span>Tyl</span>er</b></div>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Full Stack Software Developer</p>
+    <img src="/img/main-profile-pic.jpg" alt="" class="intro__img">
+</section>
+
+
+<!-- About-->
+
+<!-- Skills--->
+
+<!-- Projects--->
+
+<!-- Contact--->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<div class="contact-link-container">
+  <ul>
+    <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+    <li class="email"><a href="#"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></i></a></li>
+    <li class="github"><a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+    <li class="phone"><a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a></li>
+  </ul>
+</div>
+
+<!-- Conlusion--->
+</div>
+<script src="script.js"></script>
+</body>
+</html>
