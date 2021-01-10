@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 #bg-overlay{
-   background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.3));
    position: relative;
    z-index:10000o;
    height:100vh
@@ -38,7 +37,6 @@
     }
 }
 body {
-    background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -92,7 +90,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__subtitle--intro{
-    background: #f1717198;
+  
     padding: .25em 1em;
     font-family: var(--ff-primary);
     margin-bottom: 1em;
@@ -284,7 +282,6 @@ ul li:hover a::before{
 }
 
 body {
-  background: rgb(0, 0, 5) url(https://i.ibb.co/H78VzNS/background-brick.jpg) center no-repeat;
   background-size:cover;
   max-height:95vh;
   margin:0;
@@ -295,57 +292,13 @@ body {
   text-align: center;
   width: 55%;
   height: 250px;
+  font-size: 5rem;
   margin: auto;
+  font-family:'Permanent Marker', 'cursive';
   position: absolute;
   right: 10%;
   bottom: 35%;
    user-select: none;
-   box-shadow: var(--bs);
-}
-
-.name b{
-  font: 400 15vh 'Yellowtail','san-serif';
-  color: #fee;
-  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
-}
-.name b span{
-  animation: blink linear infinite 2s;
-}
-.name b span:nth-of-type(2){
-  animation: blink linear infinite 3s;
-}
-@keyframes blink {
-  78% {
-    color: inherit;
-    text-shadow: inherit;
-  }
-  79%{
-     color: #333;
-  }
-  80% {
-    
-    text-shadow: none;
-  }
-  81% {
-    color: inherit;
-    text-shadow: inherit;
-  }
-  82% {
-    color: #333;
-    text-shadow: none;
-  }
-  83% {
-    color: inherit;
-    text-shadow: inherit;
-  }
-  92% {
-    color: #333;
-    text-shadow: none;
-  }
-  92.5% {
-    color: inherit;
-    text-shadow: inherit;
-  }
 }
 
 
